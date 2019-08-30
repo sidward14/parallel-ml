@@ -30,10 +30,6 @@ def parallel_map_func_re( func, arrs:np.ndarray, max_workers:int = 2 ):
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 # if __name__ == '__main__':
-#   x = torch.randint( high = 28, size = (1000, 5) )
-  #print([o for o in x])
-  #print( list(bincount2D_fastai_parallel(o) for o in x ) )
-  #z = parallel_apply_func_re(bincount2D_fastai_parallel,x)
-  #print( z )
+  # pass
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#

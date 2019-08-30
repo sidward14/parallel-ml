@@ -2,9 +2,6 @@
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
-# import sys
-# sys.path.append( '/home/sid/repos/machine_learning_projects/deep_helpers/' )
-
 from ._defaults import *
 from .multiprocessing import parallel_map_func_re
 
@@ -16,8 +13,6 @@ import numpy as np
 # import matplotlib.pyplot as plt
 # import skimage.segmentation
 # from scipy.sparse import coo_matrix, csc_matrix
-
-# from fastai import *
 
 import torch
 
