@@ -1,0 +1,27 @@
+TODO
+====
+
+- Implement `histogram_of_confidence()` in interpret.py (see end of my .ipynb histopathologic cancer model)
+
+- Implement `acc_segmentation()` in metrics.py
+
+- Implement GPU-parallel version of histogram2d (intersection)
+
+- Do `README.rst`
+
+- Do `LICENSE` (be sure to add `license = ...` parameter to `setup()` function in `setup.py` once you do)
+
+- Add `tests` (be sure to add `test_suite = ...` parameter to `setup()` function in `setup.py` once you do)
+
+- Add sphynx documentation (be sure to add `extras_require  = { 'docs': [ ... ] }` parameter to `setup` function in `setup.py` once you do)
+
+- Perhaps edit your `setup()`'s `description` parameter, or research your claim for the description you have right now
+
+- Implement the TODO's you have listed in each of your modules
+
+Questions
+---------
+
+- How do you properly add the correct CPU/GPU version of pytorch in your `setup.py`?
+
+- does functools.Partial give a speed-up or is it better to just use lambda fxn?
