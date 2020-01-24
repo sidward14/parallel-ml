@@ -14,11 +14,12 @@ def readme( ):
 
 setup(
   name = 'parallel-ml',
-  version = '0.0.1',
+  version = '0.0.2',
   author = 'Sidhartha Parhi',
   author_email = 'sidhartha.parhi@gmail.com',
   description = "Parallel ML utilities (GPU or CPU) that I can't find anywhere else",
   long_description = readme( ),
+  url = "https://github.com/sidward14/parallel-ml",
   packages = [
     'parallel_ml',
   ],
