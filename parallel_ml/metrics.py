@@ -214,6 +214,7 @@ def unique_duo_parallel( pred, targ, bknd_idx, first_idx, i ):
 
 # Use this to map string input args of metric names to actual fxns of module:
 # TODO: Implement the commented out metrics in this module and then uncomment
+
 METRICS_DICT = {
   'accuracy' : accuracy,
 #  'precision' : precision,
@@ -221,6 +222,14 @@ METRICS_DICT = {
 #  'f1_score' : f1_score,
   'acc_segmentation' : acc_segmentation,
   'mAP_IoU' : mAP_IoU
+}
+
+METRICS_GAN_DICT = {
+#  'inception' : inception,
+#  'fid' : fid,
+#  'ms-ssim' : diversity,
+#  'discriminator loss' : disc_loss,
+#  'discriminator realness' : realness
 }
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
